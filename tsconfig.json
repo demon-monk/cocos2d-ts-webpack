@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "commonjs",
+
+    "outDir": "tsdist/",
+
+    "sourceMap": true,
+    "allowJs": true
+  },
+  "include": ["typings/**/*", "tssrc/**/*"]
+}
