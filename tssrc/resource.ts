@@ -22,7 +22,7 @@
  THE SOFTWARE.
  ****************************************************************************/
 
-export const res: {[key: string]: string} = {
+export const res = {
     HelloWorld_png : "res/HelloWorld.png",
     Sprite_Image:"res/sprite_image.png",
     Sprite_Sheet:"res/sprite_sheet.png",
@@ -40,4 +40,4 @@ export const res: {[key: string]: string} = {
     Tail:"res/streak.png"
 };
 
-export const g_resources = Object.keys(res).map(key => res[key])
+export const g_resources = Object.values(res)
