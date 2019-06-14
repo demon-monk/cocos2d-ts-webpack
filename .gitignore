@@ -2,3 +2,4 @@ frameworks
 node_modules
 tsdist
 cocos2d
+typings
